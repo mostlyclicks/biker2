@@ -13,11 +13,12 @@ export default BikeList
 
 
 const Section = styled.section`
-  min-height:50vh;
+  min-height:auto;
   border:1px solid gray;
   padding:1rem;
 
   @media (min-width:768px) {
     width:50%;
+    min-height:50vh;
   }
 `

@@ -20,7 +20,7 @@ const Main = styled.div`
   display:flex;
   height:100vh;
   flex-direction:column;
-  justify-content:space-around;
+  justify-content:flex-start;
   gap:10px;
   padding:10px 5px;
 
