@@ -21,8 +21,11 @@ const Main = styled.div`
   height:100vh;
   flex-direction:column;
   justify-content:space-around;
+  gap:10px;
+  padding:10px 5px;
 
   @media (min-width:768px) {
     flex-direction:row;
+    
   }
 `

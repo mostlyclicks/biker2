@@ -3,10 +3,19 @@ import styled from 'styled-components'
 
 const AddBike = () => {
   return (
-    <div>
+    <Section>
       <h1>Add Bike</h1>
-    </div>
+    </Section>
   )
 }
 
 export default AddBike
+
+const Section = styled.section`
+  min-height:50vh;
+  border:1px solid gray;
+  padding:1rem;
+  @media (min-width:768px) {
+    width:50%;
+  }
+`

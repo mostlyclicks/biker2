@@ -3,10 +3,21 @@ import styled from 'styled-components'
 
 const BikeList = () => {
   return (
-    <div>
+    <Section>
       <h1>Bike List</h1>
-    </div>
+    </Section>
   )
 }
 
 export default BikeList
+
+
+const Section = styled.section`
+  min-height:50vh;
+  border:1px solid gray;
+  padding:1rem;
+
+  @media (min-width:768px) {
+    width:50%;
+  }
+`
